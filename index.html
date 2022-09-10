@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Smart Keyboard | Kartikey Tandon</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Online Smart Keyboard</h1>
+        </div>
+        <div class="output">
+            <div id="text"></div>
+        </div>
+        <div id="Alpha">
+        <div class="firstRow">
+            <button class="primary-btn active remove" id="box1" onclick="callItQ()">Q</button>
+            <button class="primary-btn active remove" id="box2" onclick="callItW()">W</button>
+            <button class="primary-btn active remove" id="box3" onclick="callItE()">E</button>
+            <button class="primary-btn active remove" id="box4" onclick="callItR()">R</button>
+            <button class="primary-btn active remove" id="box5" onclick="callItT()">T</button>
+            <button class="primary-btn active remove" id="box6" onclick="callItY()">Y</button>
+            <button class="primary-btn active remove" id="box7" onclick="callItU()">U</button>
+            <button class="primary-btn active remove" id="box8" onclick="callItI()">I</button>
+            <button class="primary-btn active remove" id="box9" onclick="callItO()">O</button>
+            <button class="primary-btn active remove" id="box10" onclick="callItP()">P</button>
+            <button class="primary-btn active remove" onclick="callBackspace()">.</button>
+            <img src="icons/backspace.png" alt="" onclick="callBackspace()">
+        </div>
+        <div class="secondRow">
+            <button class="primary-btn active remove" id="box11" onclick="callItA()">A</button>
+            <button class="primary-btn active remove" id="box12" onclick="callItS()">S</button>
+            <button class="primary-btn active remove" id="box13" onclick="callItD()">D</button>
+            <button class="primary-btn active remove" id="box14" onclick="callItF()">F</button>
+            <button class="primary-btn active remove" id="box15" onclick="callItG()">G</button>
+            <button class="primary-btn active remove" id="box16" onclick="callItH()">H</button>
+            <button class="primary-btn active remove" id="box17" onclick="callItJ()">J</button>
+            <button class="primary-btn active remove" id="box18" onclick="callItK()">K</button>
+            <button class="primary-btn active remove" id="box19" onclick="callItL()">L</button>
+            <button class="primary-btn active remove" id="enter" onclick="enter()">.</button>
+            <img src="icons/enter.png" alt="" onclick="enter()">
+        </div>
+        <div class="thirdRow">
+            <button class="primary-btn active remove" id="capsLock" onclick="Cap()">.</button>
+            <button class="primary-btn active remove" id="box20" onclick="callItZ()">Z</button>
+            <button class="primary-btn active remove" id="box21" onclick="callItX()">X</button>
+            <button class="primary-btn active remove" id="box22" onclick="callItC()">C</button>
+            <button class="primary-btn active remove" id="box23" onclick="callItV()">V</button>
+            <button class="primary-btn active remove" id="box24" onclick="callItB()">B</button>
+            <button class="primary-btn active remove" id="box25" onclick="callItN()">N</button>
+            <button class="primary-btn active remove" id="box26" onclick="callItM()">M</button>
+            <button class="primary-btn active remove punc" id="box27" onclick="specialChar1()">! ,</button>
+            <button class="primary-btn active remove punc" id="box28" onclick="specialChar2()">. ?</button>  
+            <button class="primary-btn active remove" id="box29" onclick="specialChar3()">` ^</button> 
+            <img src="icons/caps.png" id="icon1" alt="" onclick="Cap()">
+            <!-- <img src="icons/caps.png" id="icon2" alt="" onclick="Cap()"> -->
+        </div>
+        <div class="forthRow">
+            <button class="primary-btn active remove" id="nums" onclick="print()">
+                <div id="numm">@gmail.com</div>
+            </button>
+            <button class="primary-btn active remove" id="spaceBar" onclick="spacebar()"></button>
+            <button class="primary-btn active remove" onclick="nums()">
+                <div>123</div>
+            </button>
+            <button class="primary-btn active remove" id="extraIcon" onclick="normalState()">.</button>
+            <img src="icons/keyboard.png" alt="" onclick="normalState()">
+        </div>
+    </div>
+    </div>
+    <div class="copyright">All rights Reserved © 2022</div>
+    <script src="index.js"></script>
+</body>
+</html>

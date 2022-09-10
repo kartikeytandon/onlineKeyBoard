@@ -1,0 +1,128 @@
+body {
+    background-color: #29465B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    /* margin-top: 160px; */
+}
+.head {
+    background-color: #29465B;
+    position: relative;
+    top: -50px;
+    left: 392.5px;
+    width: fit-content;
+    color: ghostwhite;
+    font-size: larger;
+}
+.container {
+    /* background-color: #80B3C4; */
+    padding: 20px;
+    margin-left: 145px;
+    margin-top: 80px;
+    /* min-width: 2000px; */
+    min-width: 2100px;  
+    position: relative;
+    top: -40px;
+}
+.primary-btn {
+    padding: 30px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: #6B8BA4;
+    border: 2px solid #B1F4E7;
+    color: #80B3C4;
+    font-size: xx-large;
+    margin: 2px;
+    margin-top: 4px;
+    box-shadow: 1px 1px 1px #B1F4E7;
+}
+#enter {
+    width: 150px;
+}
+.secondRow {
+    margin-left: 58px;
+}
+.firstRow img {
+    position: relative;
+    width: 50px;
+    top: 15px;
+    right: 80px;
+    filter: invert(85%);
+}
+.secondRow img {
+    position: relative;
+    width: 50px;
+    top: 17px;
+    right: 109px;
+    filter: invert(85%);
+}
+.thirdRow img {
+    /* position: relative; */
+    width: 40px;
+    /* top: 9px; */
+    /* right: 1047px; */
+    filter: invert(85%);
+}
+#icon1 {
+    position: relative;
+    right: 1155px;
+    top: 8px;
+}
+#icon2 {
+    position: relative;
+    right: 119px;
+    top: 8px;
+}
+.forthRow img {
+    position: relative;
+    width: 50px;
+    top: 15px;
+    right: 80px;
+    filter: invert(85%);
+}
+.primary-btn div {
+    margin-left: -10px;
+}
+#nums {
+    width: 250px;
+}
+#spaceBar {
+    width: 706px;
+    height: 100px;
+    position: relative;
+    top: 7px;
+}
+.output {
+    background-color: #c5eee6;    
+    width: 500px;
+    height: 100px;
+    margin-left: 339px;
+    margin-bottom: 35px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+#text {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    word-wrap: break-word;
+    color: #2e4b60;
+}
+.primary-btn:active {
+    background-color: #29465B;
+}
+.imgActive:active {
+    background-color: #29465B;
+}
+.copyright {
+    margin: auto;
+    position: relative;
+    top: 40px;
+    color: yellow;
+}
