@@ -2,7 +2,7 @@ let caps = 0
 
 function Cap() {
     if(caps === 0) {
-        caps = 1
+        caps = 1 
         console.log("caps on")
         document.getElementById("capsLock").style.backgroundColor = "#29465B"
     } else {
