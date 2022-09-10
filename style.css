@@ -121,7 +121,7 @@ body {
     background-color: #29465B;
 }
 .copyright {
-    margin: auto;
+    margin: auto; 
     position: relative;
     top: 40px;
     color: yellow;
